@@ -28,3 +28,25 @@ Exemplo de um código completo escrito em PIX Script.
  }
 CLOSE```
 
+# 📦 Estrutura do Programa
+     .
+     ├── turing_machine
+     │   └── src
+     │       └── main
+     │           └── java
+     |                └── src
+     |                    ├── ATM.java
+     |                    ├── App.java
+     |                    ├── JGraficoPixel.java
+     |                    ├── Resultados.java
+     |                    ├── TuringMachine.java
+     |                    └── Main.java
+     ├── target
+     ├── README.md
+     ├── pom.xml
+     └── tm_rule30.json
+     .
+
+# 📦 Etapas do Programa
+
+1º - Criar a lista de tokens válidos.

@@ -14,3 +14,17 @@ texto no formato CSV contendo a tabela de símbolos;
 - Caso haja algum erro durante o processo da análise léxica, será gerado um arquivo
 log contendo o erro que foi gerado.
 
+Exemplo de um código completo escrito em PIX Script.
+```LEDGER transferencia
+ LET @nome = 'Denecley Alvim'
+ LET @produto = 'Placa Nvidia 5070RTX'
+ LET $valor = 4999.99
+ LET !pix = "soinformatica@gmail.com"
+ IF (!pix != "") {
+ $> 'Realizar transferência'
+ }
+ :: {
+ $> 'Aguardando chave PIX'
+ }
+CLOSE```
+

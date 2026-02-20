@@ -51,3 +51,8 @@ CLOSE
 # 📦 Etapas do Programa
 
 1º - Criar a lista de tokens válidos.
+2º - Ler todos os símbolos do código de entrada.
+3º - Reunir todos lexemas, menos espaçamentos.
+4º - Tokenizar.
+5º - Criar a tabela de símbolos.
+6º - Substituir os lexemas por id.

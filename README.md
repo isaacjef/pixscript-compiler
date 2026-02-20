@@ -26,7 +26,8 @@ Exemplo de um código completo escrito em PIX Script.
  :: {
  $> 'Aguardando chave PIX'
  }
-CLOSE```
+CLOSE
+```
 
 # 📦 Estrutura do Programa
      .

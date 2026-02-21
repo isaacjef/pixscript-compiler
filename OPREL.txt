@@ -1,0 +1,42 @@
+* OPREL:
+
+
+BLOCO_PRINCIPAL: [LEDGER, CLOSE]
+SAIDA: [$>]
+TIPO: [$, #, @, ?, !, ~]
+ASPAS_SIMPLES: [']
+ASPAS_DUPLAS: ["]
+
+
+HashMap hm = new HashMap();
+hm.put("LEDGER", "BLOCO_PRINCIPAL");
+hm.put("CLOSE", "BLOCO_PRINCIPAL");
+hm.put("\'", "ASPAS_SIMPLES");
+hm.put(..., "PROGRAMA_PRINCIPAL");
+
+
+meu_codigo.pix
+
+LEDGER programa
+	LET #idade <- 30
+CLOSE
+
+
+Tabela de Símbolos
+ID	TOKEN 			LEXEMA
+1	BLOCO_PRINCIPAL		LEDGER
+2       PROGRAMA_PRINCIPAL	programa
+
+
+tabela símbolo.csv
+
+id,token,lexema
+1,BLOCO_PRINCIPAL,LEDGER
+
+
+
+
+
+saida.pixobj
+
+<BLOCO_PRINCIPAL, 1><PROGRAMA_PRINCIPAL, 2>
